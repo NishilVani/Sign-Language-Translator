@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Sign Language Translator",
+    "slug": "Sign_Language_Translator",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b8bd2389-bd3b-4db9-8f83-d65766229225"
+      }
+    },
+    "android": {
+      "package": "com.Nishil.SLR"
+    }
+  },
+  "name": "Sign Language Translator"
+}

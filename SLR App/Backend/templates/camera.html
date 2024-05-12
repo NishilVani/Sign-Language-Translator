@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    {% block content %}
+    {% load static %}
+    <head>
+        <title>Camera</title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css" media="all">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <img src="{% url 'translate_camera' %}" alt="Camera Feed">
+    </body>
+    {% endblock %}
+</html>
